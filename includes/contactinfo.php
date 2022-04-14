@@ -1,0 +1,1 @@
+<a href="mailto:info@getmyparcel.com"> <i class="fa fa-envelope-o" aria-hidden="true"></i> info@getmyparcel.com </a>

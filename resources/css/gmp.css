@@ -1,0 +1,266 @@
+.isa_info,.isa_success,.isa_warning,.isa_error {
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 15px 10px 15px 50px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	-moz-border-radius: .5em;
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
+}
+
+.isa_info {
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url('/resources/images/info.png');
+}
+
+.isa_success {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image: url('/resources/images/success.png');
+}
+
+.isa_warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url('/resources/images/warning.png');
+}
+
+.isa_error {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url('/resources/images/error.png');
+}
+
+/* .dl-horizontal dd {
+	text-align: right;
+	width: 60px;
+} */
+
+/* For every field */
+.isa_success_message {
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.isa_error_message {
+	color: #D8000C;
+	background-color: #FFBABA;
+	border: 1px solid;
+	margin: 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.payment-record-nav {
+	float: left;
+}
+
+.dropzone.well {
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+}
+
+.dropzone.dz-clickable {
+	cursor: pointer;
+}
+
+.dropzone {
+	border-radius: 0;
+	border: 1px solid rgba(0, 0, 0, .06);
+}
+
+.dropzone .dz-default.dz-message {
+	background-image: none;
+	font-size: 24px;
+	text-align: center;
+	line-height: 32px;
+	left: 0;
+	width: 100%;
+	margin-left: auto;
+}
+
+.dropzone.dz-clickable .dz-message,.dropzone.dz-clickable .dz-message *
+	{
+	cursor: pointer;
+}
+
+.dropzone .dz-message {
+	text-align: center;
+	margin: 2em 0;
+}
+
+.dropzone.dz-clickable * {
+	cursor: default;
+}
+
+.dropzone,.dropzone * {
+	box-sizing: border-box;
+}
+
+.bigger-150 {
+	font-size: 150% !important;
+}
+
+.bolder {
+	font-weight: bolder;
+}
+
+.smaller-80 {
+	font-size: 80% !important;
+}
+
+.grey {
+	color: #777 !important;
+}
+
+.dropzone .dz-default.dz-message span .upload-icon {
+	opacity: .7;
+	filter: alpha(opacity = 70);
+	margin-top: 8px;
+	cursor: pointer;
+}
+
+.dropzone.dz-clickable .dz-message,.dropzone.dz-clickable .dz-message *
+	{
+	cursor: pointer;
+}
+
+.dropzone.dz-clickable * {
+	cursor: default;
+}
+
+.blue {
+	color: #478fca !important;
+}
+
+.ace-icon {
+	text-align: center;
+}
+
+.dropzone .dz-default.dz-message span .upload-icon:hover {
+	opacity: 1;
+	filter: alpha(opacity = 100);
+}
+
+.comment-form div.dataTables_wrapper div.dataTables_filter {
+	float: right;
+}
+
+.comment-form div.dataTables_wrapper div.dataTables_info {
+	float: left;
+}
+
+/* In-line radio buttons for forms */
+.form_radio .notActive {
+	color: #555;
+	background-color: white;
+}
+
+.form_radio .active {
+	color: white;
+	background-color: #3c763d;
+}
+
+.form_radio .btn {
+	border: 1px solid #ccc;
+}
+
+/* In-line radio buttons for create order page */
+.big_radio .notActive {
+    color: #d2243a;
+    background-color: #fff;
+}
+
+.big_radio .active {
+    color: #fff;
+    background-color: #d2243a;
+}
+
+.big_radio .btn {
+    height: 46px !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #d2243a;
+}
+
+.big_radio .notActive:hover {
+    color: #d2243a !important;
+}
+
+.feedback{
+	padding: 10px 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+/* nowrap */
+td.nowrap-td{white-space:nowrap}
+
+/* timepicker modal issue */
+.ui-timepicker-standard {
+    z-index: 1050!important;
+}
+
+/* document */
+.document{
+	padding: 10px 10px;
+    transition: transform .2s;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+.document label{
+	cursor: pointer;
+	display: inline-block;
+	white-space: normal;
+	padding: .3em;
+}
+
+.document a{
+    cursor: pointer;
+    color: inherit;
+}
+
+.document:hover{
+    transform: scale(1.2);
+}
+
+/* file upload */
+.file-upload input{
+	width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-upload label{
+    cursor: pointer;
+    font-size: large;
+    text-decoration: underline;
+}
+
+/* cost */
+.cost{
+    margin-bottom: 5px !important;
+}
+
+.cost label{
+    width: 60%;
+    margin: 5px 0px;
+    text-align: right;
+}
+
+.cost .form-group{
+    width: 100px;
+}
+
+.cost .form-group .input-group{
+    margin-left: 10px;
+}

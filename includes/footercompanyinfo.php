@@ -1,0 +1,1 @@
+<p style="font-size:80%">Logistics Exchange Software powered by <a href="https://podx.io" target="_blank">PoDX.io</a>.  &copy; 2021 eKapital UK Ltd. All Rights Reserved. | Best viewed on monitors with resolution 1280 x 720 or upwards </p>
