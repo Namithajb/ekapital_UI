@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /audio
+Disallow: /bat
+Disallow: /css
+Disallow: /font
+Disallow: /images
+Disallow: /inc
+Disallow: /js
+Disallow: /plugins
